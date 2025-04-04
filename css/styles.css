@@ -10,6 +10,10 @@ GLOBAL
 	font-family: 'Courier New', Courier, monospace;
 	box-sizing: border-box;
 }
+a{
+	text-decoration: none;
+	color: aliceblue;
+}
 html{
 	scroll-behavior: smooth;
 }
@@ -84,8 +88,7 @@ header{
 	border: none;
 	height: 100%;
 	padding: 0 2rem;
-	text-decoration: none;
-	color: aliceblue;
+
 	transition: 0.5s;
 
 }
@@ -130,6 +133,29 @@ body{
 
 	margin-top: 5vh;
 	border-right: 1px solid gray;
+}
+
+
+.side-bar nav{
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	width: 80%;
+	align-items: center;
+}
+
+.side-bar nav a{
+	margin: 5px;
+	height: 2rem;
+	text-align: center;
+	width: 90%;
+	align-content: center;
+}
+.side-bar nav a:hover{
+	background-color: #363636;
+	color: aliceblue;
+
+	border-radius: 5px;
 }
 .post:nth-of-type(1){
 	margin-top: 5vh;
