@@ -92,14 +92,20 @@ header{
 	transition: 0.5s;
 
 }
-
-.ctc{
+button{
 	background: none;
 	border: none;
-	background-color: orange;
 	height: 2rem;
+	border-radius: 5px;
 	padding: 8px;
-	border-radius: 4px;
+
+}
+button:hover{
+	cursor: pointer;
+}
+.ctc{
+
+	background-color: #6457A6;
 	color: aliceblue;
 	letter-spacing: 1px;
 }
@@ -108,6 +114,7 @@ header{
 
 	text-decoration: underline;
 	background-color: #363636;
+	color: #FFE347;
 	cursor: pointer;
 	transition: 0.5s;
 }
@@ -181,6 +188,14 @@ body{
 	transform: scale(98%);
 
 }
+.post a{
+	color: rgb(182, 190, 196);
+}
+
+.post a:hover{
+	color:#FFE347;
+}
+
 
 /*=============================================
 FOrm section
@@ -207,6 +222,11 @@ FOrm section
 	flex-direction: column;
 	color: aliceblue;
 	margin: 1rem 0;
+}
+.frm-btn{
+	background-color: #6457A6;
+	color: aliceblue;
+	
 }
 .input-container input{
 	height: 1.5rem;
